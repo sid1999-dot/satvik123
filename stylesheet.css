@@ -1,0 +1,197 @@
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+title{
+  font-family: "Times New Roman";
+}
+
+p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Write your code below */
+.header-list li {
+  float: right;
+  padding: 33px 20px;
+  font-size: 20px;
+  font-family: sans-serif;
+  border: powderblue;
+  background-color: rgb(61, 216, 236);
+
+}
+h3{
+  background-color: aqua;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://source.unsplash.com/WLUHO9A_xik/1600x900);
+  background-size:contain;
+  color: rgb(19, 18, 18);
+  text-align: center;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  color: #1f191c;
+}
+
+.top-wrapper p {
+  opacity: 1;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.linkedin {
+  background-color: #2b7fce;
+  color: azure;
+}
+
+.github {
+  background-color: #3b5998;
+  margin-right: 10px;
+  color: black;
+}
+
+.instagram {
+  background-color: #8a3c60;
+  color: aliceblue;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+.main {
+  padding: 100px 80px;
+}
+
+.copy-container h1 {
+  font-size: 40px;
+  color:white
+}
+
+.copy-container h2 {
+  font-size: 40px;
+  color: aliceblue;
+}
+
+.copy-container h3{
+  font-size: 20px;
+  
+}
+.copy-container h4{
+  color:palevioletred;
+}
+
+.copy-container span {
+  color: #f3ebeb;
+}
+
+.footer {
+  
+  color: #fff;
+  height: 120px;
+  padding: 192px;
+  width:100px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 40px;
+  font-size: 20px;
+  
+}
+.contents-item {
+  float: left;
+  /* Change the margin-right property to 40px */
+  margin-right: 40px;
+  
+}
+
+/* Change the font-size and margin-top of <p> tags within contents-item */
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-right: 20px;
+  color: #fff;
+}
+
+.contents {
+  height: 500px;
+  /* Change the margin-top property to 100px */
+  margin-top: 100px;
+  
+}
+h4{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 80px;
+  color: #fff;
+}
+
+.header-logo{
+  background-color: plum;
+}
+
+.header{
+  background-color: rgb(170, 162, 53);
+}
+
+
